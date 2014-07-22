@@ -1,0 +1,10 @@
+{application, loadconfig,
+ [
+  {description, "loadconfig:load to load an app.config (or sys.config)"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib,
+                  asn1]},
+  {env, []}
+ ]}.
